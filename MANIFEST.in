@@ -1,0 +1,2 @@
+recursive-include search_system/templates *.html
+recursive-include search_system/srcs *.csv
