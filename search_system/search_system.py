@@ -50,7 +50,7 @@ class Index:
     res = self.es.search(
         index="test-index", 
         body={"query": { "match": {"text": text}}},
-        size=20, 
+        size=20 
         )
     res = [i['_source']['iD'] for i in res['hits']['hits']]
     res = self.df.iloc[res].sort_values(by='created_date', ascending=False)

@@ -1,0 +1,17 @@
+MANIFEST.in
+README.txt
+setup.py
+search_system/__init__.py
+search_system/app.py
+search_system/configs.py
+search_system/search_system.py
+search_system.egg-info/PKG-INFO
+search_system.egg-info/SOURCES.txt
+search_system.egg-info/dependency_links.txt
+search_system.egg-info/requires.txt
+search_system.egg-info/top_level.txt
+search_system/documentation/create_api.py
+search_system/documentation/docs.json
+search_system/documentation/requirements.txt
+search_system/srcs/posts.csv
+search_system/templates/index.html
